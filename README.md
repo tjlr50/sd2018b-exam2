@@ -281,4 +281,4 @@ Dentro de los problemas que econtré para el desarrollo, principalmente fue esta
 [5]: 5.png
 [6]: 6.png
 [7]: 7.png
-[18: 8.png
+[8]: 8.png
