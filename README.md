@@ -4,10 +4,9 @@
 **Docente:** Daniel Barragán C.  
 **Tema:** Construcción de artefactos para entrega continua  
 **Estudiante:** Tomas Lemus
-
-**Correo:** daniel.barragan at correo.icesi.edu.co
-
-**Codigo:**A00054616
+**Correo:** tjlr50@gmail.com
+**git:** github.com/tjlr50
+**Codigo:** A00054616
 
 ### Objetivos
 * Realizar de forma autómatica la generación de artefactos para entrega continua
@@ -71,13 +70,13 @@ la version y el tipo (Docker ó AMI) y en su lógica realice la construcción de
 ```
 En el directorio que se creó, se ingresa a certs donde se genera el certificado como se muestra en la figura siguiente.
 
-1
+![][1]
 
 ### Documentación e implementación del método para la generación del artefacto.
 
 Se procede a crear el archivo docker-compose.yml el cual contiene los servicios registry, ci server y ngrok.
 
-2
+![][2]
 
 Docker-compose
 
@@ -252,4 +251,31 @@ paths:
 ```  
 
 
+Se procede al build del docker compose
 
+![][3]
+
+Tomamos la URL que nos brinda Ngrok para el webhook de la rama desde 0.0.0.0:4040/status, a continuación se muestra el pull request y la debida respuesta.
+
+![][4]
+
+![][5]
+
+![][6]
+
+![][7]
+
+![][8]
+
+
+Dentro de los problemas que econtré para el desarrollo, principalmente fue establecer un orden de trabajo que permita un desarrollo conciso de las tareas, para esto se tomó el diagrama del despliegue como base y se incorporó al sistema de archivos del sistema, tomando como ejemplo las actividades realizadas en clase. Personalmente, la busqueda de la información parece ser labor de gran importancia para este tipo de actividades como el aprovisionamiento de máquinas virtuales, ya que implica el abastecimiento de tecnologías que pueden ser nuevas y confusas como chef y el modelo de recetas; nuevamente, los ejemplos previos al exámen permiten generalizar el modelo. Finalmente, el entendimiento de las tecnologías sugeridas como la librerías de python y ngrok añaden complejidad al desarrollo, para esto se esudiaron las fuentes recomendadas. En terminos de trabajo sucedieron interrupciones como reservas de la sala inesperadas que al momento de seguir no recordaba lo que estaba fallando.
+
+
+[1]: 1.png
+[2]: 2.png
+[3]: 3.png
+[4]: 4.png
+[5]: 5.png
+[6]: 6.png
+[7]: 7.png
+[18: 8.png
