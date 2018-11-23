@@ -4,7 +4,9 @@
 **Docente:** Daniel Barragán C.  
 **Tema:** Construcción de artefactos para entrega continua  
 **Estudiante:** Tomas Lemus
+
 **Correo:** daniel.barragan at correo.icesi.edu.co
+
 **Codigo:**A00054616
 
 ### Objetivos
