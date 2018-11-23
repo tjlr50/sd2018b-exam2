@@ -4,8 +4,11 @@
 **Docente:** Daniel Barragán C.  
 **Tema:** Construcción de artefactos para entrega continua  
 **Estudiante:** Tomas Lemus
+
 **Correo:** tjlr50@gmail.com
+
 **git:** github.com/tjlr50
+
 **Codigo:** A00054616
 
 ### Objetivos
